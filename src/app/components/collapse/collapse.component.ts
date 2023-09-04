@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./collapse.component.css']
 })
 export class CollapseComponent {
-  isMenuCollapsed = true;
+  public isCollapsed = false;
 }

@@ -40,6 +40,7 @@ import { ModelComponent } from './components/model/model.component';
 import { DropdownComponent } from './components/dropdown/dropdown.component';
 import { DatepickerComponent } from './components/datepicker/datepicker.component';
 import { CollapseComponent } from './components/collapse/collapse.component';
+import { NavigationComponent } from './components/navigation/navigation.component';
 
 @NgModule({
   declarations: [
@@ -79,7 +80,8 @@ import { CollapseComponent } from './components/collapse/collapse.component';
     ModelComponent,
     DropdownComponent,
     DatepickerComponent,
-    CollapseComponent
+    CollapseComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
