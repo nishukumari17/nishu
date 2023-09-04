@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./toast.component.css']
 })
 export class ToastComponent {
-
+  show = true;
 }
