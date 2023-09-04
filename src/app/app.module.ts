@@ -79,14 +79,16 @@ import { NavigationComponent } from './components/navigation/navigation.componen
     NavComponent,
     ModelComponent,
     DropdownComponent,
-    DatepickerComponent,
+    
     CollapseComponent,
     NavigationComponent
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    DatepickerComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]
