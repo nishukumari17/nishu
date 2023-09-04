@@ -1,0 +1,58 @@
+.pmsg{
+    background-color:white;
+    padding: 60px 0;
+    text-align: center;
+}
+.pimage{
+    width:70%;
+   
+   
+}
+.pmsg p{
+    text-align: justify;
+
+}
+.pmsg p:last-child{
+    text-align: right;
+}
+.ban img{
+    width: 100%;
+    display: block;
+    
+   
+    
+}
+.branch {
+    /* background-color: white; */
+    background-image:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('./../../../assets/images/back.jpg') ;
+    background-size: cover;
+    padding: 10px 0;
+    text-align: center;
+}
+.ban img:hover{
+    transform: rotate(360deg);
+    transition: all 2s;
+}
+.details h4{
+    
+   
+    bottom:0px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding: 10px 0;
+}
+
+.ban{
+    
+    background: white;
+    padding: 10px ;
+    margin: 10px;
+}
+.syllabus{
+    background-color: grey;
+    padding: 30px ;
+}
+.syllabus h4{
+    text-align: center;
+}

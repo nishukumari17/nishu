@@ -1,0 +1,36 @@
+.ban img{
+    width: 100%;
+    display: block;
+    padding:40px 30px;
+    margin: 10px 0;
+    border: 2px solid grey;
+}
+.branch {
+    background-color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+.ban img:hover{
+    transform: rotate(360deg);
+    transition: all 2s;
+}
+.details h4{
+    position: absolute;
+   
+    bottom:0px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding: 10px 0;
+}
+
+.ban{
+    position: relative;
+}
+.syllabus{
+    background-color: grey;
+    padding: 30px ;
+}
+.syllabus h4{
+    text-align: center;
+}

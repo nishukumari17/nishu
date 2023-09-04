@@ -1,0 +1,17 @@
+.pmsg{
+    background-color:white;
+    padding: 60px 0;
+    text-align: center;
+}
+.pimage{
+    width:70%;
+   
+   
+}
+.pmsg p{
+    text-align: justify;
+
+}
+.pmsg p:last-child{
+    text-align: right;
+}

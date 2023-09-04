@@ -1,0 +1,20 @@
+<p>
+	Tooltips can contain any arbitrary HTML, Angular bindings and even directives! Simply enclose desired content in a
+	<code>&lt;ng-template&gt;</code> element.
+</p>
+
+<ng-template #tipContent>Hello, <b>{{name}}</b>!</ng-template>
+<button type="button" class="btn btn-outline-secondary" [ngbTooltip]="tipContent">
+	I've got markup and bindings in my tooltip!
+</button>
+<p>You can choose a custom tooltip target. It works best when using manual triggers.</p>
+
+<div class="d-flex align-items-baseline">
+	<p>You can hover</p>
+
+	<button class="btn btn-outline-secondary ms-2" ngbTooltip="Told you so!" [positionTarget]="target">
+		this button,
+	</button>
+
+	<p class="ms-2">but tooltip will appear <b #target>here</b>.</p>
+</div>

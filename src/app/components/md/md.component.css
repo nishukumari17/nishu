@@ -1,0 +1,30 @@
+.md{
+    padding: 60px 0;
+    text-align: center;
+}
+.md table tr td,.md table tr th{
+    border:solid 1px rgb(238, 236, 236);
+    padding: 20px 10px;
+   
+}
+.md table{
+    border-collapse: collapse;
+    
+}
+.md table tr:first-child{
+    background-color:#C25B56 ;
+}
+.md table tr:nth-child(2n){
+    background-color:#E6E6E6 ;
+}
+button{
+    border: solid 1px #C26376;
+    border-radius: 5px;
+}
+.md button:hover{
+    color: white;
+    background-color:#C25B56 ;
+}
+a{
+    color:#C26376 ;
+}

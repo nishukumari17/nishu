@@ -1,0 +1,19 @@
+.faculty{
+    text-align: center;
+    padding: 60px 0;
+}
+.high{
+    width:80%;
+}
+.faculty h3{
+    color:#B65651;
+    padding: 40px 0;
+}
+.faculty h6{
+    
+    padding:0px 0 15px 0;
+}
+.line{
+    border:1px solid black;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,17 @@
+.gallery{
+    text-align:center;
+    padding: 60px 0;
+}
+.image{
+    width:100%;
+    padding: 10px 0;
+}
+.gal{
+width:100%;
+    
+    border: solid 8px #7F332F;
+    margin-bottom:20px;
+}
+.gal:hover{
+    border: solid 8px #CE605A;
+}

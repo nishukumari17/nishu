@@ -1,0 +1,10 @@
+.about{
+    text-align: center;
+    padding: 70px 0;
+}
+.about h4{
+    text-align: left;
+}
+.about p{
+    text-align: justify;
+}

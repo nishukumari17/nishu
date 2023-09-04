@@ -1,0 +1,32 @@
+.placement{
+    padding: 60px 0;
+    text-align: center;
+}
+
+.placement table tr td,.placement table tr th{
+    border:solid 1px rgb(215, 212, 212);
+    padding: 20px 10px;
+   
+}
+.placement table{
+    border-collapse: collapse;
+    
+}
+.placement table tr:first-child{
+    background-color:#C25B56 ;
+    color: whitesmoke;
+}
+.placement table tr:nth-child(2){
+    font-size: bold;
+    background-color: #F2C38B ;
+}
+.line{
+    border: 1px solid black;
+    margin: 20px 0;
+}
+h3{
+    color:#B65651 ;
+    padding: 50px 0;
+}
+
+

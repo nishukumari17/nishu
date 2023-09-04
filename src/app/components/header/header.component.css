@@ -1,0 +1,9 @@
+.head{
+    background-color:#B85752 ;
+}
+.head p{
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    margin: 0;
+}
