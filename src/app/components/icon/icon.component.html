@@ -1,0 +1,45 @@
+<ul>
+    <li><fa-icon [icon]="faCoffee"></fa-icon></li>
+
+
+<li><fa-icon [icon]="['fas', 'coffee']" size="xs"></fa-icon>
+<fa-icon [icon]="['fas', 'coffee']" size="lg"></fa-icon>
+<fa-icon [icon]="['fas', 'coffee']" size="6x"></fa-icon>
+</li>
+<li><fa-icon [icon]="['fas', 'coffee']" [fixedWidth]="true"></fa-icon></li>
+<li><fa-icon [icon]="['fas', 'coffee']" flip="horizontal"></fa-icon></li>
+<li><fa-icon [icon]="['fas', 'coffee']" flip="vertical"></fa-icon></li>
+<li><fa-icon [icon]="['fas', 'coffee']" flip="both"></fa-icon></li>
+<li><fa-icon [icon]="['fas', 'cog']" animation="spin"></fa-icon></li>
+<li><fa-icon [icon]="['fas', 'heart']" animation="beat"></fa-icon></li>
+<li><fa-icon [icon]="['fas', 'bell']" animation="shake"></fa-icon></li>
+<li><fa-icon [icon]="['fas', 'coffee']" [border]="true"></fa-icon></li>
+<li><fa-icon [icon]="['fas', 'coffee']" pull="left"></fa-icon></li>
+<li><fa-icon [icon]="['fas', 'coffee']" pull="right"></fa-icon></li>
+<li><fa-icon [icon]="['fas', 'coffee']" class="red-icon" [style]="{display: 'inline-block', padding: '5px'}"></fa-icon></li>
+<li><fa-icon [icon]="['fas', 'coffee']" [mask]="['fas', 'square']"></fa-icon>
+</li>
+<li><fa-icon [icon]="['fas', 'coffee']" transform="shrink-9 right-4"></fa-icon></li>
+
+
+
+</ul>
+<fa-icon [icon]="['fas', 'magic']" transform="rotate-{{magicLevel}}"></fa-icon>
+<input type='range' [value]="magicLevel" (input)="magicLevel=$event.target"/><br>
+
+<fa-layers [fixedWidth]="true">
+    <fa-icon [icon]="['fas', 'square']"></fa-icon>
+    <fa-icon [inverse]="true" [icon]="['fas', 'spinner']" transform="shrink-6"></fa-icon>
+  </fa-layers> <br>
+  <fa-layers [fixedWidth]="true">
+    <fa-icon [icon]="['fas', 'square']"></fa-icon>
+    <fa-layers-text content="Yo" style="color: white;" transform="shrink-4"></fa-layers-text>
+  </fa-layers> <br>
+  <fa-layers [fixedWidth]="true">
+    <fa-icon [icon]="['fas', 'envelope']"></fa-icon>
+    <fa-layers-counter content="99+"></fa-layers-counter>
+  </fa-layers> <br>
+  <div style="text-align:center">
+    <fa-icon [icon]="faCoffee"></fa-icon>
+  </div>
+  <fa-icon [icon]="['fas', 'star']"></fa-icon>

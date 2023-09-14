@@ -1,0 +1,33 @@
+
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img [defaultImage]="defaultImage" [lazyLoad]="image">
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img [defaultImage]="defaultImage" [lazyLoad]="images" [useSrcset]="true" />
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <picture>
+                    <source media="(min-width: {{ screen_lg }})" [attr.defaultImage]="defaultImage" [attr.lazyLoad]="image2" />
+                    <source media="(min-width: {{ screen_md }})" [attr.defaultImage]="defaultImage" [attr.lazyLoad]="image3" />
+                    <img [defaultImage]="defaultImage" [lazyLoad]="image1" />
+                  </picture>
+            </div>
+        </div>
+    </div>
+</section>

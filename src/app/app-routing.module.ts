@@ -11,6 +11,8 @@ import { ContactComponent } from './components/contact/contact.component';
 import { NoticeComponent } from './components/notice/notice.component';
 import { PlacementComponent } from './components/placement/placement.component';
 import {FaqComponent } from './components/faq/faq.component';
+import {ComponentComponent } from './components/component/component.component';
+
 
 
 
@@ -26,6 +28,7 @@ const routes: Routes = [
   {path: 'placement', component:PlacementComponent},
   {path: 'notice', component:NoticeComponent},
   {path: 'faq', component:FaqComponent},
+  {path: 'component', component:ComponentComponent},
   {path: '', component:HomeComponent},
   {path: '**', component:HomeComponent},
 
@@ -35,6 +38,7 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
+
 export class AppRoutingModule { }
 // import { NgModule } from '@angular/core';
 // import { RouterModule, Routes } from '@angular/router';
