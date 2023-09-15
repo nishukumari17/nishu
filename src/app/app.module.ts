@@ -47,6 +47,7 @@ import { IconComponent } from './components/icon/icon.component';
 import { ChartComponent } from './components/chart/chart.component';
 import { PdfComponent } from './components/pdf/pdf.component';
 
+
 import {  FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { VideoComponent } from './components/video/video.component';

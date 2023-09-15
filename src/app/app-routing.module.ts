@@ -12,6 +12,7 @@ import { NoticeComponent } from './components/notice/notice.component';
 import { PlacementComponent } from './components/placement/placement.component';
 import {FaqComponent } from './components/faq/faq.component';
 import {ComponentComponent } from './components/component/component.component';
+import {IconComponent } from './components/icon/icon.component';
 
 
 
@@ -29,6 +30,7 @@ const routes: Routes = [
   {path: 'notice', component:NoticeComponent},
   {path: 'faq', component:FaqComponent},
   {path: 'component', component:ComponentComponent},
+  {path: 'icon', component:IconComponent},
   {path: '', component:HomeComponent},
   {path: '**', component:HomeComponent},
 
