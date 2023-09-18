@@ -65,6 +65,7 @@ import { LazyLoadImageModule, LAZYLOAD_IMAGE_HOOKS, ScrollHooks } from 'ng-lazyl
 import { PchartComponent } from './components/pchart/pchart.component';
 import { ImgloaderComponent } from './components/imgloader/imgloader.component';
 import * as dragula from 'dragula';
+import { HideShowComponent } from './components/hide-show/hide-show.component';
 
 @NgModule({
   declarations: [
@@ -118,7 +119,8 @@ import * as dragula from 'dragula';
     DragulaComponent,
     LazyloadComponent,
     PchartComponent,
-    ImgloaderComponent
+    ImgloaderComponent,
+    HideShowComponent
   ],
 
   imports: [

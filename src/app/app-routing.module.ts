@@ -17,6 +17,7 @@ import {IconComponent } from './components/icon/icon.component';
 
 
 
+
 const routes: Routes = [
   {path: 'about', component:AboutComponent},
   {path: 'gallery', component:GalleryComponent},
@@ -31,6 +32,8 @@ const routes: Routes = [
   {path: 'faq', component:FaqComponent},
   {path: 'component', component:ComponentComponent},
   {path: 'icon', component:IconComponent},
+ 
+
   {path: '', component:HomeComponent},
   {path: '**', component:HomeComponent},
 

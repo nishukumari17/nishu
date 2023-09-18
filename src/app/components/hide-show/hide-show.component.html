@@ -1,0 +1,21 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                    <button class="color" (click)="fun()">Hide</button>
+                    <button class="color"  (click)="fun2()">SHOW</button>
+                    <button class="color"  (click)="hs()">HIDE/SHOW</button>
+                    <button class="color"  (click)="pages()">INCREMENT</button>
+                    <button class="color"  (click)="pages_d()">DECREMENT</button>
+
+            </div>
+        </div>
+        <div class="row" *ngIf="status">
+            <div class="col">
+                <h1>PAGE:{{page}}</h1>
+                <h1>TESTING HIDE SHOW</h1>
+                <p>This is the era of liberalization, privatization and globalization. The need of the hour is training individuals in dynamic way and make them to face different challenges thrown up by rapidly changing socio-economic technical scenario at the Global level. The Younger Generation must strive to develop into a well rounded personality with excellent Technical, Managerial, interpersonal and communication skills poised at the cutting-edge of Technology.</p>
+            </div>
+        </div>
+    </div>
+</section>
