@@ -1,0 +1,34 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col notice">
+                <img src="https://gpadp.org.in/assets/images/left-arrow.png" alt="">
+                <h2>Notices</h2>
+            </div>
+        </div>
+        <div class="row" *ngFor ="let notice of notices"  >
+            <div class="col-md-2">
+                {{notice.date | date:'shortDate'}}
+               </div>
+           <div class="col-md-5">
+               <a href="">{{notice.title}}</a> 
+                
+           </div>
+           <div class="col-md-1">
+            {{notice.new}}
+            
+           </div>
+           <div class="col-md-3">
+        <a href=""> {{notice.notice}}</a>
+               
+           </div>
+           <div class="col-md-1">
+            {{notice.home}}
+            
+           </div>
+           
+           
+           
+        </div>
+    </div>
+</section>

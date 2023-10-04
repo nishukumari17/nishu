@@ -66,6 +66,8 @@ import { PchartComponent } from './components/pchart/pchart.component';
 import { ImgloaderComponent } from './components/imgloader/imgloader.component';
 import * as dragula from 'dragula';
 import { HideShowComponent } from './components/hide-show/hide-show.component';
+import { ShopComponent } from './components/shop/shop.component';
+import { NoticesComponent } from './components/notices/notices.component';
 
 @NgModule({
   declarations: [
@@ -120,7 +122,9 @@ import { HideShowComponent } from './components/hide-show/hide-show.component';
     LazyloadComponent,
     PchartComponent,
     ImgloaderComponent,
-    HideShowComponent
+    HideShowComponent,
+    ShopComponent,
+    NoticesComponent
   ],
 
   imports: [

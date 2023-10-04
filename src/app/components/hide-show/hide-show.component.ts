@@ -8,10 +8,14 @@ import { Component } from '@angular/core';
 export class HideShowComponent {
   status:boolean=true;
   page:number=1;
+  images:String[]=["back.jpg"]
+  
   ngOnInit(){
     console.log(this.status);
     console.log(this.page);
+    
   }
+  
   fun(){
     this.status=false;
   }
